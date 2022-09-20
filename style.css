@@ -2,6 +2,32 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body{
+    background-color: #b2bec3;
+    font-family: 'Nunito', sans-serif;
+    margin: 150px;
+    font-size: 18px;
+  
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+
+}
+.vizitka{
+    background: white;
+    width: 550px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 8px #888888;
+
+}
+
+h1{
+    color: #d63031;
+    font-weight: bold;
+    font-size: 36px;
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
