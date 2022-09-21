@@ -6,15 +6,16 @@ body{
     background-color: #b2bec3;
     font-family: 'Nunito', sans-serif;
     margin: 150px;
-    font-size: 18px;
-    
+    font-size: 18px;    
 }
+
 .vizitka{
     background: white;
     width: 550px;
-    border-radius: 10%;
+    border-radius: 10px;
     box-shadow: 10px 10px 8px #888888;
     padding: 30px 30px;
+    position: relative;
 }
 
 img{
@@ -22,7 +23,10 @@ img{
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 3px 3px 20px #888888;
-
+    position: absolute;
+    left: 475px;
+    top: -75px;
+    
 }
 
 h1{
@@ -34,7 +38,7 @@ h1{
 }
 
 a{
-    display: block;
+    display: inline-block;
     text-decoration: none;
 
 }
@@ -43,6 +47,7 @@ a{
     border-radius: 5px;
     width: 490px;
     text-align: center;
+    font-weight: bold;
     color: white;
     padding: 10px;
     font-size: 18px;
@@ -53,6 +58,7 @@ a{
     border-radius: 5px;
     width: 490px;
     text-align: center;
+    font-weight: bold;
     color: white;
     padding: 10px;
     margin-bottom: 5px;
@@ -60,6 +66,14 @@ a{
     text-transform: uppercase;
     margin-top: 30px;
 }
+
+.twitter2 a:hover{
+    background-color: #0b7bc1;
+}
+
+.face a:hover{
+    background-color: #2b406e;
+    }
 
 
 /*
@@ -73,4 +87,3 @@ tlačítko Twitter aktivní:	 #0b7bc1
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
-
