@@ -7,19 +7,21 @@ body{
     font-family: 'Nunito', sans-serif;
     margin: 150px;
     font-size: 18px;
-  
-}
-img{
-    width: 150px;
-    border-radius: 50%;
-    border: 3px solid white;
-
+    
 }
 .vizitka{
     background: white;
     width: 550px;
     border-radius: 10%;
     box-shadow: 10px 10px 8px #888888;
+    padding: 30px 30px;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 3px 3px 20px #888888;
 
 }
 
@@ -27,7 +29,38 @@ h1{
     color: #d63031;
     font-weight: bold;
     font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+a{
+    display: block;
+    text-decoration: none;
+
+}
+.facebook{ 
+    background-color: #3b5998;
+    border-radius: 5px;
+    width: 490px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.twitter {
+    background-color: #1da1f2;
+    border-radius: 5px;
+    width: 490px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
 
 /*
 BARVY:
